@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ping:
+    build: .
+    container_name: ping
+    restart: always
+    volumes:
+      - ./stats:/stats
